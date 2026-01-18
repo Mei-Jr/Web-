@@ -1,4 +1,4 @@
-import pool from "@/lib/A1_db";apple
+import pool from "@/lib/A1_db";
 import BookTable from "./BookTable"; // フィルタリング用のクライアントコンポーネント
 
 // 1. サーバーサイドでデータを取得する関数
@@ -44,3 +44,4 @@ export default async function Page() {
   );
 
 }
+
